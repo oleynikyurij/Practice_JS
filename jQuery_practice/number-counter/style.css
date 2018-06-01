@@ -5,9 +5,41 @@
 }
 
 body {
-	background-color: dimgray;
+	background-color: #f5f5f5;
 	font-family: sans-serif;
+	color: #808080;
+	padding: 25px;
+	text-align: center;
+	
+}
+.wrapper {
 	display: flex;
+	width: 980px;
+	margin: 40px auto;
+}
+.col {
+	width: 23%;
+	margin-right: 2%;
+
+}
+.counter {
+	background-color: #fff;
+	padding: 20px 0;
+	border-radius: 7px;
+}
+
+.count {
+	margin-top: 15px;
+}
+
+.count-text {
+	font-size: 14px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.fa-2x {
+	color: aqua;
 }
 
 
